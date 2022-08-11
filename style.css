@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Orbitron:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 7%;
+}
+div.button-group > button {
+  background-color: #633faf;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+button.btn {
+  margin-top: 45px;
+  background-color: #633faf;
+  color: white;
+  border: none;
+  width: 210px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+ul > li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+  margin: 13px 20px;
+  font-family: Montserrat;
+}
+div.banner-container > div > img {
+  float: right;
+  margin-right: 80px;
+}
+
+h1 {
+  max-width: 1200px;
+  color: #200558;
+  line-height: 1;
+  font-size: 80px;
+}
+li + li {
+  opacity: 0.6;
+}
+span {
+  color: #633faf;
+}
+p.description {
+  margin-top: 30px;
+  font-size: 18pt;
+  opacity: 0.6;
+  font-family: Montserrat sans-serif;
+}
+
+div.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+}
